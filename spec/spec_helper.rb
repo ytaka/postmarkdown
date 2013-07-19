@@ -4,10 +4,10 @@ require 'rubygems'
 require 'bundler'
 Bundler.setup :default, :development
 
-require 'postmarkdown'
-
 require 'combustion'
 Combustion.initialize! :action_controller, :action_view, :sprockets
+
+require 'postmarkdown'
 
 require 'capybara/rspec'
 require 'rspec/rails'
