@@ -6,4 +6,5 @@ end
 appraise 'rails4_0' do
   gem 'rails', '4.0.0'
   gem 'combustion', '~> 0.5.0'
+  gem "protected_attributes"
 end
