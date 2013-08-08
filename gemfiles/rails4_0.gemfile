@@ -5,7 +5,6 @@ source "http://rubygems.org"
 gem "timecop", :require=>false
 gem "generator_spec", :require=>false
 gem "rails", "4.0.0"
-gem "combustion", "~> 0.5.0"
 gem "protected_attributes"
 
 gemspec :path=>"../"
